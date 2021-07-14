@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/feature/consultaTravelocity.feature",
-        tags = "@ScenarioConsultaReservaPaquetes",
         glue = {"co.com.project.certification.devco.stepdefinitions","co.com.project.certification.devco.util"},
         snippets = SnippetType.CAMELCASE
 )
