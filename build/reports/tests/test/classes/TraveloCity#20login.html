@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class TraveloCity login</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class TraveloCity login</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; TraveloCity login</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">58.409s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Iniciar sesion"></a>
+<h3 class="failures">Iniciar sesion</h3>
+<span class="code">
+<pre>java.lang.AssertionError: Expected condition failed: waiting for By.xpath: //*[@id='gc-custom-header-nav-bar-acct-menu']/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-3I14U6IK', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at co.com.project.certification.devco.stepdefinitions.LoginStepdefinitions.debeMostrarElSiguienteMensaje(LoginStepdefinitions.java:31)
+	at ✽.debe mostrar el siguiente mensaje Cristian(src/test/resources/feature/login.feature:11)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Iniciar sesion</td>
+<td class="failures">33.781s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Iniciar sesion fallida</td>
+<td class="success">24.628s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>jul 14, 2021 1:30:06 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 17669
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1626244209.274][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+jul 14, 2021 1:30:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Iniciar sesion
+---------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Then verificar msj login
+[Test worker] ERROR net.serenitybdd.core.Serenity - Expected condition failed: waiting for By.xpath: //*[@id='gc-custom-header-nav-bar-acct-menu']/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'LAPTOP-3I14U6IK', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'Driver info: driver.version: unknown
+jul 14, 2021 1:30:39 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[1626244240.477][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+jul 14, 2021 1:30:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Iniciar sesion fallida
+----------------------------------------------------------------------------
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 14/07/2021 01:31:05 AM</p>
+</div>
+</div>
+</body>
+</html>
