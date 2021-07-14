@@ -14,9 +14,21 @@ co/com/project/certification/devco/questions/VerificarMsj.java
  co.com.project.certification.devco.questions.VerificarMsj
 co/com/project/certification/devco/tasks/SignIn.java
  co.com.project.certification.devco.tasks.SignIn
-co/com/project/certification/devco/questions/VerificarMsjLogin.java
- co.com.project.certification.devco.questions.VerificarMsjLogin
 co/com/project/certification/devco/userinterface/LoginPage.java
  co.com.project.certification.devco.userinterface.LoginPage
 co/com/project/certification/devco/questions/VerificarMsjLoginFailed.java
  co.com.project.certification.devco.questions.VerificarMsjLoginFailed
+co/com/project/certification/devco/questions/VerificarMsjLogin.java
+ co.com.project.certification.devco.questions.VerificarMsjLogin
+co/com/project/certification/devco/tasks/SearchTravelocity.java
+ co.com.project.certification.devco.tasks.SearchTravelocity
+co/com/project/certification/devco/userinterface/SearchAutosPage.java
+ co.com.project.certification.devco.userinterface.SearchAutosPage
+co/com/project/certification/devco/questions/VerificarConsultaAuto.java
+ co.com.project.certification.devco.questions.VerificarConsultaAuto
+co/com/project/certification/devco/questions/VerificarConsultaPaquete.java
+ co.com.project.certification.devco.questions.VerificarConsultaPaquete
+co/com/project/certification/devco/tasks/SearchTravelocityPaquete.java
+ co.com.project.certification.devco.tasks.SearchTravelocityPaquete
+co/com/project/certification/devco/userinterface/SearchPaquetesPage.java
+ co.com.project.certification.devco.userinterface.SearchPaquetesPage

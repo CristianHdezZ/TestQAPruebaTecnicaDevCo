@@ -12,6 +12,4 @@ public class LoginPage {
     public static final Target LABEL_MSJ_EXPETED = Target.the("").located(By.xpath("//*[@id='gc-custom-header-nav-bar-acct-menu']/button"));
     public static final Target LABEL_MSJ_EXPETED_FAILED = Target.the("").located(By.xpath("//*[@id='wrong-credentials-error-div']/h5"));
 
-    //*[@id='login-form']/p[1]
-
 }

@@ -6,3 +6,7 @@ co/com/project/certification/devco/stepdefinitions/LoginStepdefinitions.java
  co.com.project.certification.devco.stepdefinitions.LoginStepdefinitions
 co/com/project/certification/devco/runners/loginRunners.java
  co.com.project.certification.devco.runners.loginRunners
+co/com/project/certification/devco/runners/consultaTravelocityRunners.java
+ co.com.project.certification.devco.runners.consultaTravelocityRunners
+co/com/project/certification/devco/stepdefinitions/consultaTravelocityStepdefinitions.java
+ co.com.project.certification.devco.stepdefinitions.consultaTravelocityStepdefinitions
